@@ -1,0 +1,9 @@
+.place {
+    margin: 0 auto 11vh;
+    display: grid;
+    grid-template-columns: 0.46fr 0.54fr;
+    grid-template-rows: repeat(4 minmax(min-content, max-content));
+    gap: 4% 4%;
+    justify-items: start;
+    align-items: start;
+}

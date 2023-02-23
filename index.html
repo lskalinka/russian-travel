@@ -10,7 +10,7 @@
     <meta name="author" content="Lina Kalinka">
     <meta name="author" content="Yandex">
 </head>
-<body>
+<body class="body">
     <div class="page">
         <header class="header">
             <img class="header__logo" src="./images/__logo.png" alt="Логотип">
@@ -26,13 +26,11 @@
         <section class="intro">
             <h2 class="intro__title">Чего мы там не видели?</h2>
             <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-            <div class="intro__list">
-                <p>Часовых поясов <span class="span">11</span></p>
-                <p>Объектов природного наследия ЮНЕСКО <span class="span">12</span></p>
-                <p>Объектов культурного наследия ЮНЕСКО <span class="span">16</span></p>
-                <p>Природных заповедников <span class="span">105</span></p>
-                <p>Аэропортов <span class="span">241</span></p>
-            </div>
+            <p class="intro__list">Часовых поясов <span class="intro__list-span">11</span></p>
+            <p class="intro__list">Объектов природного наследия ЮНЕСКО <span class="intro__list-span">12</span></p>
+            <p class="intro__list">Объектов культурного наследия ЮНЕСКО <span class="intro__list-span">16</span></p>
+            <p class="intro__list">Природных заповедников <span class="intro__list-span">105</span></p>
+            <p class="intro__list">Аэропортов <span class="intro__list-span">241</span></p>
         </section>
         <section class="photo-grid">
             <img class="photo-grid__item" src="./images/__item-train.jpg" alt="Поезд">
@@ -51,11 +49,11 @@
         <section class="places">
             <div class="place">
                 <h2 class="place__title">Куршская коса</h2>
-                <img class="place__image" src="./images/__image-kurshskaya.jpg" alt="Куршская коса">
                 <div class="place__website">
                     <p class="place__url-heading">URL</p>
                     <a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a>
-                </div>                
+                </div>
+                <img class="place__image" src="./images/__image-kurshskaya.jpg" alt="Куршская коса">                
                 <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.</p>
                 <p class="place__paragraph">На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
             </div>
@@ -100,15 +98,17 @@
             </div>
         </section>
         <section class="cover">
+            <img class="cover__background" src="./images/__background.jpg" alt="Железнодорожная станция">
+            <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala"></a>
             <h2 class="cover__title">До Байкала «на собаках»</h2>
             <h3 class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</h3>
         </section>
         <footer class="footer">
-            <a class="footer__link" href="#">Карты</a>
-            <a class="footer__link" href="#">Погода</a>
-            <a class="footer__link" href="#">Расписание</a>
-            <a class="footer__link" href="#">Календарь</a>
-            <a class="footer__link" href="#">Путешествия</a>
+            <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
+            <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
+            <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
+            <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
+            <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
             <p class="footer__copyright">© 2023. Lina Kalinka</p>
         </footer>
     </div>

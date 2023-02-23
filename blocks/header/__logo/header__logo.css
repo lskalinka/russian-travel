@@ -1,0 +1,16 @@
+@media screen and (min-width: 1280px){
+    .header__logo {
+        align-self: stretch;
+        height: 100%;
+        justify-self: start;
+        object-fit: cover;
+    }
+}
+@media screen and (max-width: 1279px){
+    .header__logo {
+        align-self: stretch;
+        height: 90%;
+        justify-self: start;
+        object-fit: cover;
+    }
+}
