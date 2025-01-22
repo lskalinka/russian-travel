@@ -12,7 +12,3 @@
     flex-direction: column;
     justify-content: center;
 }
-
-div, h1, h2, h3, h4, section, header, footer, p, a, img {
-    border: 1px red solid;;
-}
